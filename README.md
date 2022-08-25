@@ -10,10 +10,14 @@ This file will hold the information of every item which you want to show in your
 
          #Create Adapter Class#
 This class contains some important functions to work with the RecyclerView these are as follows:
-              ~onCreateViewHolder(): This function sets the views to display the items.
-              ~onBindViewHolder(): This function is used to bind the list items to our widgets such as TextView, ImageView, etc.
-              ~getItemCount(): It returns the count of items present in the list.
-              
+
+~onCreateViewHolder(): This function sets the views to display the items.
+
+~onBindViewHolder(): This function is used to bind the list items to our widgets such as TextView, ImageView, etc.
+
+~getItemCount(): It returns the count of items present in the list.
+
+
 
 A RecyclerView is an advanced version of ListView with improved performance. 
 
