@@ -1,15 +1,15 @@
 # recyclerView-Auto_Car
 
-Hereby is a Simple RecyclerView in Android using Kotlin.
+-Hereby is a Simple RecyclerView in Android using Kotlin.
 
          #Create a New Layout Resource File
-In this file, you can design the layout to show it into the RecyclerView.
+-In this file, you can design the layout to show it into the RecyclerView.
 
          #Create a new Kotlin class-----[Data class]
-This file will hold the information of every item which you want to show in your RecyclerView.
+-This file will hold the information of every item which you want to show in your RecyclerView.
 
          #Create Adapter Class#
-This class contains some important functions to work with the RecyclerView these are as follows:
+-This class contains some important functions to work with the RecyclerView these are as follows:
 
 ~onCreateViewHolder(): This function sets the views to display the items.
 
@@ -19,10 +19,12 @@ This class contains some important functions to work with the RecyclerView these
 
 
 
-A RecyclerView is an advanced version of ListView with improved performance. 
+-A RecyclerView is an advanced version of ListView with improved performance. 
 
-When you have a long list of items to show you can use RecyclerView. 
+-When you have a long list of items to show you can use RecyclerView. 
 
-It has the ability to reuse its views. In RecyclerView when the View goes out of the screen or not visible to the user it won’t destroy it, it will reuse these views. 
+-It has the ability to reuse its views. In RecyclerView when the View goes out of the screen or not visible to the user it won’t destroy it, it will reuse these views. 
 
-This feature helps in reducing power consumption and providing more responsiveness to the application.
+-This feature helps in reducing power consumption and providing more responsiveness to the application.
+
+-The project will utilize an Adapter class to bind the data to the Recycler View, and a ViewHolder class to manage the individual views within the list. The data will be stored in an array or list, and the user interface will be defined in an XML layout file
